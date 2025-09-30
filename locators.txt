@@ -1,0 +1,61 @@
+1. Страница главная («Самокат»)
+Блок «Вопросы о важном» (FAQ)
+Локатор для каждого вопроса (стрелочка/кнопка раскрытия).
+Локатор для текста, который открывается при клике.
+👉 Нужно будет сделать список/массив локаторов, чтобы можно было параметризовать тесты (каждый вопрос отдельный тест).
+Кнопки «Заказать»
+Верхняя кнопка.
+Нижняя кнопка.
+Логотипы
+Логотип «Самоката» (возврат на главную).
+Логотип «Яндекса» (открывается Дзeн).
+🔹 2. Страница заказа
+Форма заказа (2 шага):
+Поле «Имя».
+Поле «Фамилия».
+Поле «Адрес».
+Станция метро (выпадающий список).
+Телефон.
+Кнопка «Далее».
+Шаг 2 формы
+Дата доставки (календарь).
+Срок аренды (выпадающий список).
+Цвет самоката (чекбоксы).
+Комментарий курьеру (опционально).
+Кнопка «Заказать».
+Окно подтверждения
+Кнопка «Да» (подтвердить заказ).
+Окно успешного заказа
+Сообщение об успешном заказе.
+Кнопка «Посмотреть статус» (если есть).
+
+
+
+принять куки - <button class="App_CookieButton__3cvqF" id="rcc-confirm-button" style="background: rgb(255, 212, 45); border: 0px; border-radius: 0px; box-shadow: none; color: black; cursor: pointer; flex: 0 0 auto; padding: 5px 10px; margin: 15px;">да все привыкли</button>
+заказать хедер - <button class="Button_Button__ra12g">Заказать</button>
+стаутс заказа хедер - <button class="Header_Link__1TAG7">Статус заказа</button>
+заказать на странице - <button class="Button_Button__ra12g Button_Middle__1CSJM">Заказать</button>
+
+лого «Яндекса» <a target="_blank" rel="noopener noreferrer" href="//yandex.ru" class="Header_LogoYandex__3TSOI"><img src="/assets/ya.svg" alt="Yandex"></a>
+лого самоката - <a class="Header_LogoScooter__3lsAR" href="/"><img src="/assets/scooter.svg" alt="Scooter"></a>
+
+текст как это работает -<div class="Home_SubHeader__zwi_E">Как это работает</div>
+
+текст вопрос о важном» - <div class="Home_SubHeader__zwi_E">Вопросы о важном</div>
+
+
+полностью блок вопросов о важном - <div class="Home_FourPart__1uthg" style="opacity: 1;"><div class="Home_SubHeader__zwi_E">Вопросы о важном</div><div class="Home_FAQ__3uVm4"><div data-accordion-component="Accordion" class="accordion"><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-0" aria-disabled="true" aria-expanded="true" aria-controls="accordion__panel-0" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Сколько это стоит? И как оплатить?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-0" id="accordion__panel-0"><p>Сутки — 400 рублей. Оплата курьеру — наличными или картой.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-1" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-1" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Хочу сразу несколько самокатов! Так можно?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-1" id="accordion__panel-1" hidden=""><p>Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-2" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-2" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Как рассчитывается время аренды?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-2" id="accordion__panel-2" hidden=""><p>Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-3" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-3" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Можно ли заказать самокат прямо на сегодня?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-3" id="accordion__panel-3" hidden=""><p>Только начиная с завтрашнего дня. Но скоро станем расторопнее.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-4" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-4" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Можно ли продлить заказ или вернуть самокат раньше?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-4" id="accordion__panel-4" hidden=""><p>Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-5" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-5" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Вы привозите зарядку вместе с самокатом?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-5" id="accordion__panel-5" hidden=""><p>Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-6" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-6" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Можно ли отменить заказ?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-6" id="accordion__panel-6" hidden=""><p>Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.</p></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div id="accordion__heading-7" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-7" role="button" tabindex="0" class="accordion__button" data-accordion-component="AccordionItemButton">Я жизу за МКАДом, привезёте?</div></div><div data-accordion-component="AccordionItemPanel" class="accordion__panel" role="region" aria-labelledby="accordion__heading-7" id="accordion__panel-7" hidden=""><p>Да, обязательно. Всем самокатов! И Москве, и Московской области.</p></div></div></div></div></div>
+
+
+
+
+блок для кого самокат
+
+<div class="Order_Content__bmtHS"><div class="Order_Header__BZXOb">Для кого самокат</div><div class="Order_Form__17u6u"><div class="Input_InputContainer__3NykH"><input type="text" class="Input_Input__1iN_Z Input_Responsible__1jDKN" placeholder="* Имя" value=""><div class="Input_ErrorMessage__3HvIb">Введите корректное имя</div></div><div class="Input_InputContainer__3NykH"><input type="text" class="Input_Input__1iN_Z Input_Responsible__1jDKN" placeholder="* Фамилия" value=""><div class="Input_ErrorMessage__3HvIb">Введите корректную фамилию</div></div><div class="Input_InputContainer__3NykH"><input type="text" class="Input_Input__1iN_Z Input_Responsible__1jDKN" placeholder="* Адрес: куда привезти заказ" value=""><div class="Input_ErrorMessage__3HvIb">Введите корректный адрес</div></div><div class=""><div class="select-search"><div class="select-search__value"><input tabindex="0" placeholder="* Станция метро" autocomplete="on" class="select-search__input" value=""></div></div></div><div class="Input_InputContainer__3NykH"><input type="text" class="Input_Input__1iN_Z Input_Responsible__1jDKN" placeholder="* Телефон: на него позвонит курьер" value=""><div class="Input_ErrorMessage__3HvIb">Введите корректный номер</div></div></div><div class="Order_NextButton__1_rCA"><button class="Button_Button__ra12g Button_Middle__1CSJM">Далее</button></div></div>
+Блок про аренду 
+
+<div class="Order_Content__bmtHS"><div class="Order_Header__BZXOb">Про аренду</div><div class="Order_Form__17u6u"><div class="Order_MixedDatePicker__3qiay"><div class="react-datepicker-wrapper"><div class="react-datepicker__input-container"><input type="text" placeholder="* Когда привезти самокат" class="Input_Input__1iN_Z Input_Responsible__1jDKN" value=""></div></div><img class="Order_Icon__U8ltz" src="/assets/calendar-passive.svg" alt=""></div><div class="Dropdown-root"><div class="Dropdown-control" aria-haspopup="listbox"><div class="Dropdown-placeholder">* Срок аренды</div><div class="Dropdown-arrow-wrapper"><span class="Dropdown-arrow"></span></div></div></div><div class="Order_Checkboxes__3lWSI"><div class="Order_Title__3EKne">Цвет самоката</div><label for="black" class="Checkbox_Label__3wxSf"><input id="black" class="Checkbox_Input__14A2w" type="checkbox" name="">чёрный жемчуг</label><br><label for="grey" class="Checkbox_Label__3wxSf"><input id="grey" class="Checkbox_Input__14A2w" type="checkbox" name="">серая безысходность</label></div><div class="Input_InputContainer__3NykH"><input type="text" class="Input_Input__1iN_Z Input_Responsible__1jDKN" placeholder="Комментарий для курьера" value=""><div class="Input_ErrorMessage__3HvIb">Тут что-то не так</div></div></div><div class="Order_Buttons__1xGrp"><button class="Button_Button__ra12g Button_Middle__1CSJM Button_Inverted__3IF-i">Назад</button><button class="Button_Button__ra12g Button_Middle__1CSJM">Заказать</button></div></div>
+
+блок подтверждения заказа
+
+<div class="Order_Modal__YZ-d3"><div class="Order_ModalHeader__3FDaJ">Хотите оформить заказ?<br><div class="Order_Text__2broi">&nbsp;</div></div><div class="Order_Buttons__1xGrp"><button class="Button_Button__ra12g Button_Middle__1CSJM Button_Inverted__3IF-i">Нет</button><button class="Button_Button__ra12g Button_Middle__1CSJM">Да</button></div></div>
