@@ -18,10 +18,7 @@ class OrderPageLocators:
     TOMORROW_DATE_CALENDAR = (By.XPATH, "//div[contains(@class, 'react-datepicker__day--today')]/following-sibling::div[1]")
     CURRENT_MONTH = (By.CLASS_NAME, "react-datepicker__current-month")
     NEXT_MONTH_BUTTON = (By.CLASS_NAME, "react-datepicker__navigation--next")
-    # Пример конкретных дат для выбора
-    DATE_FIRST = (By.XPATH, "//div[@aria-label='Choose пятница, 3 октября 2025']")
-    DATE_SECOND = (By.XPATH, "//div[@aria-label='Choose воскресенье, 5 октября 2025']")
-
+   
     # Выпадающий список аренды
     DROPDOWN_RENT = (By.CLASS_NAME, "Dropdown-control")
     RENT_OPTION = (By.CLASS_NAME, "Dropdown-option")  # общий локатор для элементов списка
