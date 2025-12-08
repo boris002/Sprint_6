@@ -1,0 +1,1 @@
+{"uuid": "631dce03-c5d2-4fa1-adb0-b8888b490446", "children": ["bc520dcc-35c7-4d9e-bd69-3066d945dca3"], "befores": [{"name": "home_page", "status": "passed", "steps": [{"name": "Принять куки, если баннер есть", "status": "passed", "start": 1759239891507, "stop": 1759239891595}], "start": 1759239891507, "stop": 1759239891595}], "start": 1759239891507, "stop": 1759239897089}
